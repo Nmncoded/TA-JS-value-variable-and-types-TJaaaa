@@ -5,19 +5,20 @@ let lastName = "Stark";
 
 // Do the following:
 
-alert( firstName)  // Alert the value of the firstName.
-alert( lastName )  // Alert the value of the lastName.
-let firstName = "John"  // Assign a new value of `"John"` to firstName.
-let lastName = "Snow"  // Assign a new value of `"Snow"` to lastName.
-alert(firstName + lastName) // Alert the new value of `firstName` and `lastName` by concatenating them
-const fullname = "firstName lastName" // Create a new varaible using `const` named `fullName` and assign the fullname using firstName and lastName seperated by space.
+alert( firstName);  // Alert the value of the firstName.
+alert( lastName );  // Alert the value of the lastName.
+
+firstName = "John";   // Assign a new value of `"John"` to firstName.
+lastName = "Snow";   // Assign a new value of `"Snow"` to lastName.
+alert(firstName + lastName);  // Alert the new value of `firstName` and `lastName` by concatenating them
+const fullname = "firstName +  " " + lastName";  // Create a new varaible using `const` named `fullName` and assign the fullname using firstName and lastName seperated by space.
 // Declare three variables `name,` `newUser` and `isAdmin`.
-let name = "Naman" // Assign your name as the value of `name`.
-let newUser = "Naman" // Assign the value of `name` to `newUser`.
-let isAdmin = "true" // Set the value of `isAdmin` to `true`.
-alert("Naman")
-alert(newUser)
-alert(isAdmin) // Alert the values of all the three variables.
+let name = "Naman"; // Assign your name as the value of `name`.
+let newUser = "name"; // Assign the value of `name` to `newUser`.
+let isAdmin = "true"; // Set the value of `isAdmin` to `true`.
+alert("Naman");
+alert(newUser);
+alert(isAdmin); // Alert the values of all the three variables.
 
 // Assignment and re-assignment
 
