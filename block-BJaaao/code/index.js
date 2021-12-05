@@ -18,9 +18,9 @@ let num2 = 32;
 */
 
 let language = "Javascript"
-alert(`I am Learninng ${language} `)
-alert(`The value of num1 is ${num1} and the value of num2 is ${num2}`)
-alert(`The sum of ${num1} and ${num2} is ${num1+num2}`)
+alert(`I am Learninng ${language} `);
+alert(`The value of num1 is ${num1} and the value of num2 is ${num2}`);
+alert(`The sum of ${num1} and ${num2} is ${num1+num2}`);
 /*
 2. Do the following using `alert`, `prompt` and `confirm` and `console`
 
@@ -37,21 +37,23 @@ alert(`The sum of ${num1} and ${num2} is ${num1+num2}`)
     Profession: [userProfession]` (it should be in three different lines)
 */
 
-prompt(`What is your name?`)
-let userName = prompt(`What is your name?`)
+let userName = prompt(`What is your name?`);
 
-prompt(`What is your profession?`)
-let userProfession = prompt(`What is your profession?`)
+let userProfession = prompt(`What is your profession?`);
 
-confirm(`Are you Adult or not?`)
-let isAdult = confirm(`Are you Adult or not?`)
+let isAdult = confirm(`Are you an Adult?`)
 
 alert(`I am ${userName} a ${userProfession}` )
 
 console.log(`I am ${userName} a ${userProfession}`)
 
-alert(`Username: ${userName} \n Adult: ${isAdult} \n Profession: ${userProfession}`)
-console.log(`Username: ${userName} \n Adult: ${isAdult} \n Profession: ${userProfession}`)
+alert(`Username: ${userName}
+Adult: ${isAdult}
+Profession: ${userProfession}`)
+
+console.log(`Username: ${userName}
+Adult: ${isAdult}
+Profession: ${userProfession}`)
 
 /*
 . Addition using prompt
@@ -64,11 +66,9 @@ console.log(`Username: ${userName} \n Adult: ${isAdult} \n Profession: ${userPro
   - Log using console.log [numA * numB]
 */
 
-prompt(`What is your age?`)
-let numA = prompt(`What is your age?`)
+let numA = Number(prompt(`Guess first no.?`));
 
-prompt(`What is your rollnumber?`)
-let numB = prompt(`What is your rollnumber?`)
+let numB = Number(prompt(`Guess second no.?`));
 
 alert( numA + numB )
 alert( numA - numB )
