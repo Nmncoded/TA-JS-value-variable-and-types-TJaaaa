@@ -11,6 +11,32 @@ Write a program that asks the user his/her age and check for the following condi
 👇
 */
 
+let age = +prompt(`Please enter your age?`);
+switch(age){
+  case age< 56 : alert(`You can participate in the marathon`);break;
+  case age< 12 : alert(` You are too young to participate in the marathon`);break;
+  case age< 5 : alert(` Hey Kiddo! Can You Walk ?`);break;
+  case age>55 : alert(` You are too old to participate in the marthon`);break;
+  default : alert(`Enter a valid value!`);
+}
+
+// if(age< 56 && age>11){
+//   alert(`You can participate in the marathon`)
+// }
+// elseif (age< 12 && age>3) {
+//   alert(` You are too young to participate in the marathon`)
+// } 
+// elseif (age< 5){
+//   alert(` Hey Kiddo! Can You Walk ?`)
+// }
+// elseif (age>55){
+//   alert(` You are too old to participate in the marthon`)
+// }
+// else {
+//   alert(`Enter a valid value!`)
+// }
+
+
 // Loops
 /*
 Given a positive integer `n`. Print the word (hello) in format of heeeello (letter 'e' must be repeated `n` times). Take input from prompt and print the result in alert.
@@ -22,11 +48,15 @@ n = 7 => output: heeeeeeello
 */
 // [Your code goes here]
 
+
+
 /*
 Program to calculate the sum of first n natural numbers(1,2,3...n are known as natural numbers). Prompt user to enter n (using `prompt`) then based on input provided calculate and show result in `alert`.
 👇
 */
 // [Your code goes here]
+
+
 
 /* Switch Statement
 
