@@ -13,6 +13,8 @@ console.log(`${user}`)
 console.log(`${userName}`)
 
     let age = 22; let isLearning = true;
+    user = "john"
+    console.log(user, userName);
 
 /* 2.
 Use `prompt` to take two numbers from user and store it in variable `numA` and `numB`. Create a third variable called `sum`, using `+` operator add numA and numB , store it in varible `sum` and using alert display `sum` in browser.
@@ -39,21 +41,24 @@ for (let j = 10; j >= 1; j--)
 }
 
 // 5. Concat all the numbers from 5 to 0 (both inclusive) in descending order using a while loop. (543210)
-
+let normalString = "";
 let numBers = 5;
 while(numBers>=0){
-    console.log(numBers);
+    normalString += numBers;
     numBers--
 }
+console.log(normalString);
 
 // 6. Concat all the even numbers from 10 to 0 (both inclusive) in descending order using a while loop. (1086420)
+let evenString = "";
 numBers = 10;
 while(numBers>=0){
-    if(numBers%2===0){
-        console.log(numBers);
+    if(numBers%2==0){
+        evenString += numBers;
     }
     numBers--
 }
+console.log(evenString);
 
 // Comparisoin
 
@@ -70,7 +75,11 @@ Example:
 
 let num1 = Number(prompt(`first number`))
 let num2 = Number(prompt(`second number`))
-let mainNum = `${num1}, ${num2}`
-alert(`${mainNum}`)
+if (isNaN(num1) || isNaN(num2)){
+    alert(`Enter a Valid Value!`)
+}
+else{
+    alert(num1 === num2)
+}
 
 
