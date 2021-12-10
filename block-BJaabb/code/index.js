@@ -30,6 +30,7 @@ for (let j = 0; j <= 10; j++)
 }
 
 // 4. Print the odd numbers from 9 to 1 (both inclusive) using a for loop.
+
 for (let j = 10; j >= 1; j--)
 {
     if(j%2 != 0){
@@ -46,6 +47,13 @@ while(numBers>=0){
 }
 
 // 6. Concat all the even numbers from 10 to 0 (both inclusive) in descending order using a while loop. (1086420)
+numBers = 10;
+while(numBers>=0){
+    if(numBers%2===0){
+        console.log(numBers);
+    }
+    numBers--
+}
 
 // Comparisoin
 
@@ -53,11 +61,16 @@ while(numBers>=0){
 
 - `alert` true or false base on the entered value.
 - if the input value is anything like `true`, `null` or `undefined` alert saying `Enter a valid value`.
-
-
 Example:
 
 21, 21; // true
 "hello", -21; // false
 
 */
+
+let num1 = Number(prompt(`first number`))
+let num2 = Number(prompt(`second number`))
+let mainNum = `${num1}, ${num2}`
+alert(`${mainNum}`)
+
+
