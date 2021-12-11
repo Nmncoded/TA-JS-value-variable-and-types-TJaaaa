@@ -22,8 +22,15 @@ while(amount<bank_balance){
     }
 }
 
-let tax = amount*TAX_RATE
-let taxedAmount = amount + tax
+let tax = amount*TAX_RATE;
+let taxedAmount = amount + tax;
+
+// for(i = 99.99; i = amount < bank_balance; i++){
+//     amount += PHONE_PRICE
+//     console.log(taxedAmount)
+// }
+
+
 console.log(`$ ${taxedAmount}`)
 
 if(taxedAmount < bank_balance){
